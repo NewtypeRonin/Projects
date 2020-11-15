@@ -15,6 +15,8 @@ public class rouletteBoiz
 {
    public static void main(String[] args)
     {
+      String welcome = "This is not an ukemi!";
+      //this is a test to see if this will update to desktop
       System.out.println("Greetings adventurer. Please let us know your Job, and Level");
       job jTester = new job("Samurai","DPS",80);
       //place holder for user input, should be assumed that they will only be using one class
