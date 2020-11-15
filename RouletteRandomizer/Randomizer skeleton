@@ -1,0 +1,10 @@
+//Roulette randomizer idea project
+//This is going to be the skeleton for a randomizer for my characters daily roulettes in ffxiv
+
+//what we will need -
+/* A Job class/object
+   A duty class/object
+   A method to store info about a user
+   A random number generator
+   */
+   
