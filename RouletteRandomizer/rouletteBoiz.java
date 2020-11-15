@@ -17,6 +17,8 @@ public class rouletteBoiz
     {
       String welcome = "This is not an ukemi!";
       //this is a test to see if this will update to desktop
+      //This is great, let's see if it works in reverse now!
+      String goodbye = "This is not an Ukemi";
       System.out.println("Greetings adventurer. Please let us know your Job, and Level");
       job jTester = new job("Samurai","DPS",80);
       //place holder for user input, should be assumed that they will only be using one class
