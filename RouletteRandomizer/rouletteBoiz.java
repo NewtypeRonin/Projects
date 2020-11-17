@@ -15,6 +15,29 @@ public class rouletteBoiz
 {
    public static void main(String[] args)
     {
+
+
+
+      String goodbye = "This is not an Ukemi";
+      System.out.println("Greetings adventurer. Please let us know your Job, and Level");
+      job jTester = new job("Samurai","DPS",80);
+      //place holder for user input, should be assumed that they will only be using one class
+      //job jTester = new job();
+      //ask for name - input1
+      //create a conditional statement
+      //if input1 = dps job, then type = DPs etc. etc.
+      //ask for level -input2
+      System.out.println("I see that you are a " + jTester.getName() + " at level " + jTester.getLevel() + "!");
+
+      System.out.println("What roulettes have you run today so far?");
+      //create a loop or a sequential that asks
+      //"Any other roulettes already done?"
+      //if they say yes, accept input if not, close loop
+      //while(more roulettes = true then loop: more roulettes = false close loop)
+
+      //accept input here for duties that have been run
+      //probably use an arraylist to hold duties that can be run or have been run.
+      //use a for each loop to walk through set duties.
       String welcome = "This is not an ukemi!";
       System.out.println(welcome);
       Random rand = new Random();
@@ -45,29 +68,6 @@ public class rouletteBoiz
         default:
           System.out.println("I AM THE STORM THAT IS APPROACHING!");
       }
-
-
-      String goodbye = "This is not an Ukemi";
-      System.out.println("Greetings adventurer. Please let us know your Job, and Level");
-      job jTester = new job("Samurai","DPS",80);
-      //place holder for user input, should be assumed that they will only be using one class
-      //job jTester = new job();
-      //ask for name - input1
-      //create a conditional statement
-      //if input1 = dps job, then type = DPs etc. etc.
-      //ask for level -input2
-      System.out.println("I see that you are a " + jTester.getName() + " at level " + jTester.getLevel() + "!");
-
-      System.out.println("What roulettes have you run today so far?");
-      //create a loop or a sequential that asks
-      //"Any other roulettes already done?"
-      //if they say yes, accept input if not, close loop
-      //while(more roulettes = true then loop: more roulettes = false close loop)
-
-      //accept input here for duties that have been run
-      //probably use an arraylist to hold duties that can be run or have been run.
-      //use a for each loop to walk through set duties.
-
       System.out.println("Based on your answer we think you should run: " + "[Placeholder for duty to be run]" + "!");
 
       System.out.println("Would you like to run this one or try again? :) ");
