@@ -16,8 +16,10 @@ public class rouletteBoiz
    public static void main(String[] args)
     {
 
-
-
+      String force= "Let's force our hand.";
+      System.out.println("-------------------------");
+      System.out.println(force);
+      System.out.println("-------------------------");
       String goodbye = "This is not an Ukemi";
       System.out.println("Greetings adventurer. Please let us know your Job, and Level");
       job jTester = new job("Samurai","DPS",80);
