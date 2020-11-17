@@ -3,6 +3,14 @@ public class rando{
   public static void main(String[] args){
 
 
+
+    System.out.println("Greetings adventurer. Please let us know your Job, and Level");
+    job jTester = new job("Samurai","DPS",80);
+
+    System.out.println("I see that you are a " + jTester.getName() + " at level " + jTester.getLevel() + "!");
+
+    System.out.println("What roulettes have you run today so far?");
+
           String welcome = "This is not an ukemi!";
           System.out.println(welcome);
           Random rand = new Random();
@@ -33,5 +41,9 @@ public class rando{
             default:
               System.out.println("I AM THE STORM THAT IS APPROACHING!");
           }
+
+          System.out.println("Based on your answer we think you should run: " + "[Placeholder for duty to be run]" + "!");
+
+          System.out.println("Would you like to run this one or try again? :) ");
         }
 }
