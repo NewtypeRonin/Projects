@@ -9,7 +9,6 @@ import java.util.Random;
    A method to store info about a user
    A random number generator
    */
-
    //Main method
 public class rouletteBoiz
 {
