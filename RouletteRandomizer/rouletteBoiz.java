@@ -16,8 +16,37 @@ public class rouletteBoiz
    public static void main(String[] args)
     {
       String welcome = "This is not an ukemi!";
-      //this is a test to see if this will update to desktop
-      //This is great, let's see if it works in reverse now!
+      System.out.println(welcome);
+      Random rand = new Random();
+      int rouletteCap = 6;
+      //
+      int rouletteResult = rand.nextInt(rouletteCap);
+      System.out.println(rouletteResult);
+
+      switch(rouletteResult){
+        case 1:
+          System.out.println("Leveling roulette!");
+          break;
+        case 2:
+          System.out.println("Trials!");
+          break;
+        case 3:
+          System.out.println("MSQ~~~!!!");
+          break;
+        case 4:
+          System.out.println("Alliance raids");
+          break;
+        case 5:
+          System.out.println("DESCENDING MISERY!");
+          break;
+        case 6:
+          System.out.println("DESTINY CHASING TIME!");
+          break;
+        default:
+          System.out.println("I AM THE STORM THAT IS APPROACHING!");
+      }
+
+
       String goodbye = "This is not an Ukemi";
       System.out.println("Greetings adventurer. Please let us know your Job, and Level");
       job jTester = new job("Samurai","DPS",80);
