@@ -30,7 +30,6 @@ public class rando{
     int rouletteCap = 6;
     int answer = 1;
     int rouletteResult;
-
     while(answer == 1)
     {
       rouletteResult = rand.nextInt(rouletteCap);
