@@ -1,11 +1,16 @@
 public class job{
   //constructor for jobs in ffxiv
   //Job name : String
-  String name;
+  private String name;
   //Job type : String
-  String type;
+  private String type;
   //Job level : int
-  int level;
+  private int level;
+  public job(){
+    name = " ";
+    type = " ";
+    level = 0;
+  }
   public job(String n,String t,int l){
     name = n;
     type = t;
