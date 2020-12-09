@@ -1,5 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class rando{
   public static void main(String[] args){
@@ -25,6 +26,17 @@ public class rando{
     System.out.println("I see that you are a " + jTester.getName() + " at level " + jTester.getLevel() + "!");
 
     System.out.println("What roulettes have you run today so far?");
+    //Code to be added to exclude certain options from the RNG
+    //Most likely we would need to store data entry in an array
+    //for now we'll declare it and go from there
+
+    ArrayList<Integer> finishRoulettes = new ArrayList<Integer>();
+
+    finishRoulettes.add(1);
+    finishRoulettes.add(9001);
+    for(int finish : finishRoulettes){
+      System.out.println(finish);
+    }
 
     Random rand = new Random();
     int rouletteCap = 6;
