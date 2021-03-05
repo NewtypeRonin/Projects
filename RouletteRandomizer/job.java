@@ -1,10 +1,10 @@
 public class job{
   //constructor for jobs in ffxiv
   //Job name : String
-  private String name;
   //Job type : String
-  private String type;
   //Job level : int
+  private String name;
+  private String type;
   private int level;
   public job(){
     name = " ";
@@ -22,12 +22,29 @@ public class job{
   }
 
   public void setName(String n){
-    name = n;
+    this.name = n;
   }
 
   public int getLevel(){
     return level;
   }
+  public void setLevel(int l){
+    this.level = l;
+  }
+  public String getType(){
+    return type;
+  }
+  public void setType(String t){
+    this.type = t;
+  }
+
+  // public void smartType(job j){
+    //check for job name and assign type based on list
+    //if((j.getName().toLowerCase()=="paladin")||(j.getName().toLowerCase()=="warrior")||(j.getName().toLowerCase()=="gunbreaker")||j.getName().toLowerCase()=="dark knight")
+  //  {
+  //    j.setType("Tank");
+//    }
+//  }
 
 
 }

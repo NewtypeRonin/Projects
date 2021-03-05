@@ -16,12 +16,18 @@ public class rando{
     Scanner input = new Scanner(System.in);
     System.out.println("Greetings Warrior of Light, what job are you currently? ");
     ffJob = input.nextLine();
-    System.out.println("Please tell us your Job type: ");
-    jobType = input.nextLine();
+    //System.out.println("Please tell us your Job type: ");
+    //jobType = input.nextLine();
     System.out.println("What level are you currently?");
     level = input.nextInt();
 
-    job jTester = new job(ffJob, jobType, level);
+    job jTester = new job(ffJob, "", level);
+
+    if((jTester.getName().toLowerCase()=="paladin")||(jTester.getName().toLowerCase()=="warrior")||(jTester.getName().toLowerCase()=="gunbreaker")||jTester.getName().toLowerCase()=="dark knight")
+    {
+      jTester.setType("Tank");
+    }
+    System.out.println("Are you a " + jTester.getType() + "?");
 
     System.out.println("I see that you are a " + jTester.getName() + " at level " + jTester.getLevel() + "!");
 
