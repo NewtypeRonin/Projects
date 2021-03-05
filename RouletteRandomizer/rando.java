@@ -23,7 +23,7 @@ public class rando{
 
     job jTester = new job(ffJob, "", level);
 
-    if((jTester.getName().equals("paladin"))||(jTester.getName().toLowerCase()=="warrior")||(jTester.getName().toLowerCase()=="gunbreaker")||jTester.getName().toLowerCase()=="dark knight")
+    if((jTester.getName().toLowerCase()=="paladin")||(jTester.getName().toLowerCase()=="warrior")||(jTester.getName().toLowerCase()=="gunbreaker")||jTester.getName().toLowerCase()=="dark knight")
     {
       jTester.setType("Tank");
     }
